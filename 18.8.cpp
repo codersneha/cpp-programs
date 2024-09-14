@@ -21,7 +21,7 @@ int main(){
             cin>>arr[i][j];
         }
     }
-    cout<<&arr
+    cout<<&arr<<endl;
     print(arr, m,n);
     return 0;
 }

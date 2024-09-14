@@ -19,8 +19,6 @@ int find_second_smallest_element(int* arr, int n){
     }
 
     return second;
-
-    return second;
 }
 
 int main( ){
@@ -34,7 +32,7 @@ int main( ){
     }
     int second_max =find_second_smallest_element(arr,n);
      
-    cout << "The second largest element: " <<second_max<<endl;
+    cout << "The second smallest element: " <<second_max<<endl;
 
     
     return 0;
